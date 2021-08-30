@@ -505,6 +505,10 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+.form-group {
+    margin: 15px 0 15px 0;
+}
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
@@ -651,7 +655,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #424242!important;
 }
 
 .container {
@@ -677,7 +681,23 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
+}
+
+.bigger-text {
+    width: 100%;
+    max-width: 560px;
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.smaller-text {
+    font-size: 15px;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .tight-width-whitespace {
@@ -709,7 +729,7 @@ h2 {
     line-height: 1.4em;
 }
 
-h3 {
+.restructured-title {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -775,11 +795,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CB4C11;
     color: #FFFFFF!important;
 }
 
@@ -822,11 +842,11 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 /*----------------------------------------------------------------------Modification Footer-------------------------------------------------------------*/
-.col-sm-4, .row.row-no-gutters {
+.higher-line-height {
     line-height: 45px;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------------*/
